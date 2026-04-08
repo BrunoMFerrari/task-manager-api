@@ -1,37 +1,39 @@
- # Task Manager API (Python)
+# 🚀 Task Manager API (Python)
 
-API REST desenvolvida em Python para gerenciamento de tarefas.
+A RESTful API built with Python for efficient task management.
 
-Este projeto foi construído como evolução de um sistema gerenciador de tarefas no terminal, com o objetivo de aprender conceitos fundamentais de backend, como criação de APIs, manipulação de banco de dados e organização de código em aplicações reais.
+This project is an evolution of a terminal-based task manager and was designed to strengthen core backend skills, including API design, database integration, and clean architecture for real-world applications.
 
-⸻
+## ✨ Features
+✅ Create tasks
+📋 Retrieve all tasks
+🔍 Search tasks by title
+✏️ Update existing tasks
+🗑️ Delete tasks
+✔️ Mark tasks as completed
+🎯 Filter tasks by priority and status
 
-🚀 Funcionalidades
-	•	Criar tarefas
-	•	Listar todas as tarefas
-	•	Buscar tarefa por título
-	•	Atualizar tarefas
-	•	Deletar tarefas
-	•	Marcar tarefa como concluída
-	•	Filtro por prioridade e por status
+## 🛠️ Tech Stack
+Python
+FastAPI
+Uvicorn
+Pydantic
+SQLAlchemy
 
-⸻
-
-🧠 Tecnologias utilizadas
-	•	Python
-	•	FastAPI
-	•	Uvicorn
-	•	Pydantic
-	•	SQLAlchemy
-
-⸻
-
-📂 Estrutura do projeto
-
+## 📂 Project Structure
 app/
-	•	main.py → inicialização da API e rotas
-	•	models.py → modelos do banco de dados
-	•	schemas.py → validação de dados com Pydantic
-	•	auth_routes.py -> rotas de autenticação
-	•	tasks_routes.py -> rotas de gerenciamento de tarefas
-  •	dependencies.py -> funcionalidades do sistema
+├── main.py           # API entry point and route initialization
+├── models.py         # Database models
+├── schemas.py        # Data validation (Pydantic schemas)
+├── auth_routes.py    # Authentication endpoints
+├── tasks_routes.py   # Task management endpoints
+├── dependencies.py   # Shared dependencies and utilities
+
+## 🎯 Purpose
+
+The main goal of this project is to practice and demonstrate backend development skills, focusing on:
+
+REST API design
+Database interaction
+Code organization and scalability
+Backend best practices
